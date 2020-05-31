@@ -1,6 +1,7 @@
 {
   "name": "khalidsheet/ktoken",
   "version": "1.0.0",
+  "description": "A simple way to create tokens for your users",
   "keywords": [
     "tokens",
     "token",
@@ -8,6 +9,7 @@
     "laravel"
   ],
   "license": "MIT",
+  "type": "library",
   "authors": [
     {
       "name": "Khalid M. Sheet",
