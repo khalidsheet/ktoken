@@ -1,0 +1,30 @@
+{
+  "name": "khalidmsheet/ktoken",
+  "version": "0.0.1",
+  "keywords": [
+    "tokens",
+    "token",
+    "ktoken",
+    "laravel"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Khalid M. Sheet",
+      "email": "khalid.m.sheet@gmail.com"
+    }
+  ],
+  "homepage": "",
+  "minimum-stability": "dev",
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": "Khalidmsheet\\Ktoken\\KtokenServiceProvider"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "khalidmsheet\\ktoken\\": "src/"
+    }
+  }
+}
