@@ -15,7 +15,6 @@
     }
   ],
   "homepage": "https://github.com/khalidsheet/ktoken.git",
-  "minimum-stability": "dev",
   "prefer-stable" : true,
   "require": {},
   "extra": {
