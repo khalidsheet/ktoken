@@ -15,7 +15,7 @@
     }
   ],
   "homepage": "https://github.com/khalidsheet/ktoken.git",
-  "prefer-stable" : true,
+  "minimum-stability": "stable",
   "require": {},
   "extra": {
     "laravel": {
