@@ -11,7 +11,7 @@ $user->createToken();
 ## Installing
 
 ```bash
-$ composer require khalidmsheet/ktoken
+$ composer require khalidsheet/ktoken
 ```
 
 
