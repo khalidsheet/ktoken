@@ -8,15 +8,15 @@ $user->createToken();
 ```
 
 
-##Installing
+## Installing
 
 ```bash
 $ composer require khalidmsheet/ktoken
 ```
 
 
-##Documentation
-> Comming Soon.
+## Documentation
+> Coming Soon.
 
 
 
