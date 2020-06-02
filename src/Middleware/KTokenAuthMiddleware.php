@@ -52,7 +52,11 @@ class KTokenAuthMiddleware
 
         $request->setUserResolver(function () use ($tokenData) {
             $model = config('ktoken.auth_model', User::class);
-            return ( new $model )->find($tokenData->data->id);
+            $user = ( new $model )->find($tokenData->data->id);
+
+            auth()->setUser($user);
+
+            return $user;
         });
 
         return $next($request);

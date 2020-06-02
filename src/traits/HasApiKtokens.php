@@ -20,8 +20,13 @@ trait HasApiKtokens
     }
 
 
+    /**
+     * @return array
+     * @throws \Exception
+     */
     public function createToken()
     {
+
         return $this->ktoken->encrypt([
             'id' => $this->getAuthenticateIdentifier()
         ]);
