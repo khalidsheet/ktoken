@@ -15,7 +15,8 @@ class KtokenServiceProvider extends ServiceProvider
     public function register()
     {
         $this->publishes([
-            __DIR__.'/config' => base_path('config'),
+            __DIR__ . '/config' => base_path('config'),
+            __DIR__ . '/Middleware' => base_path('app/http/Middleware')
         ], 'ktoken');
 
         $this->commands([GenerateKtokenPassword::class]);

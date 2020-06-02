@@ -132,7 +132,6 @@ class Ktoken extends KTokenStorage
 
         $calcmac = hash_hmac('sha256', $planText, $this->_options['password'], true);
 
-
         if ( !hash_equals($hmac, $calcmac) )
             return false;
 

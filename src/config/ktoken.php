@@ -52,5 +52,18 @@ return [
       | However, the default value is: (kt.tokens)
       |
       */
-    'storage_prefix' => 'kt.tokens'
+    'storage_prefix' => 'kt.tokens',
+
+
+    /*
+      |--------------------------------------------------------------------------
+      | Auth Model
+      |--------------------------------------------------------------------------
+      |
+      | Auth model will determine the authintecatable model and
+      | To search for the user that assigned to its token
+      | Then, assigned the user to the incoming request
+      |
+      */
+    'auth_model' => \App\User::class
 ];
